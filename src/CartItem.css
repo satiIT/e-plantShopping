@@ -2,12 +2,13 @@
 /* CartItem.css */
 
 .cart-item {
-  display: flex;
-  border-bottom: 1px solid #ccc;
-  padding: 10px 0;
-  background-color: white;
-  width: 500px;
-  gap: 30px;
+  display: grid;  
+    grid-template-columns: 1fr; /* Ensures only one item per row */  
+    border-bottom: 1px solid #ccc;  
+    padding: 10px 0;  
+    background-color: white;  
+    width: 500px; /* Adjust width as needed */  
+    gap: 30px; /* Sp
 }
 
 .cart-item-image {
